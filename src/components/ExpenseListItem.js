@@ -1,14 +1,20 @@
 //Export a stateless functional component
 //description, amount, creatAt
 import React from 'react';
-
-import {removeExpense} from '../actions/expenses';
+import moment from 'moment';
 import {Link} from 'react-router-dom';
+import numeral from 'numeral';
 
 const ExpenseListItem = ({dispatch, description, amount, createdAt, id})=>(
     <div>
-        <Link to={`/edit/${id}`}>{description} </Link>
-        <p > {amount} - {createdAt}</p>
+        <Link to={`/edit/${id}`}>
+            {description} 
+        </Link>
+        <p > 
+        {numeral(amount/100).format('$0,0.00')} 
+        - 
+        {moment(createdAt).format('MMMM Do, YYYY')}
+        </p>
         
     </div>
 );
