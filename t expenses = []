@@ -1,0 +1,41 @@
+[33mcommit 216e83481328f3497d6dd48e5d83c2bba1418ec1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 12:59:06 2018 +0100
+
+    Add Expenses summary to dashboard
+
+[33mcommit c86a1003d725a62b85db95ebfe3733291ce0dff4[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 12:12:36 2018 +0100
+
+    Setup formatting for amount and createdAt
+
+[33mcommit 7393335c391f2c90533d70d5330ab9faf93d380b[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 11:57:41 2018 +0100
+
+    Setup devDependecies and distfolder
+
+[33mcommit 66fc2de9c9ccf26066ddcc94e7d647316442a580[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 11:37:04 2018 +0100
+
+    remove package.lock
+
+[33mcommit f84a471e8bbf1b9fab5255cba71ab7747ba330fc[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 11:34:14 2018 +0100
+
+    Setup production build and server
+
+[33mcommit 36b77eaa9682c79572e88fed79c642f293820159[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 10:54:29 2018 +0100
+
+    Setup production webpack build
+
+[33mcommit 60ce7f8da98e4b8931977e875ae13388bd89c090[m
+Author: Miguel Silva <mglsilva578@gmail.com>
+Date:   Tue Oct 2 09:24:30 2018 +0100
+
+    initial commit
