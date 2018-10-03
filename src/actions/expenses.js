@@ -53,9 +53,17 @@ export const startSetExpenses = ()=>{
                     ...childSnapshot.val()
                 });
             });
-            
+
             dispatch(setExpenses(expenses));
         });
     };
+};
+
+export const startRemoveExpense = ({id } = {})=>{
+    return(dispatch)=>{
+        return database.ref(`expenses/${id}`).remove().then(()=>{
+            dispatch(removeExpense({id}));
+        });
+    }
 };
 
